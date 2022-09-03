@@ -1,6 +1,6 @@
 <template>
   <div
-    class="relative items-top justify-center min-h-screen bg-gray-900 sm:items-center text-white p-4 sm:p-6 lg:p-8"
+    class="relative items-top justify-center min-h-screen sm:items-center text-white p-4 sm:p-6 lg:p-8 bg-gradient-radial from-gray-900 to-black"
   >
     <NavBar />
     <Home />

@@ -3,20 +3,29 @@
     <div class="mt-8 overflow-hidden p-6">
       <img
         src="~assets/avatar.png"
-        class="w-36 h-36 rounded-full float-right"
+        class="w-36 h-36 rounded-full float-right shadow-2xl shadow-white"
       />
-      <h2 class="text-4xl font-semibold">Hi,</h2>
-      <h2 class="text-2xl font-semibold">my name is József.</h2>
+      <h2 class="text-8xl font-semibold">Hi,</h2>
+      <h2 class="text-4xl font-semibold">my name is József.</h2>
     </div>
 
     <p class="mt-3">
-      I am full stack web developer. I love projects that make the world a
+      I am a full stack web developer. I love projects that make the world a
       better place.
     </p>
     <p class="mt-4">
       I have more than 10 years of experience in developing all kinds of
       software solutions. My expertiese is ...
     </p>
+
+    <div class="flex justify-center pt-8">
+      <a
+        class="transition duration-500 hover:text-gray-400"
+        href="CV_en.docx"
+        download
+        >Download my resume</a
+      >
+    </div>
 
     <div class="flex justify-center pt-4 space-x-2">
       <a href="https://github.com/szurilo" target="_blank"
