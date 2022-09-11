@@ -2,7 +2,7 @@
   <div class="flex justify-center pt-4 space-x-2">
     <a href="https://github.com/szurilo" target="_blank"
       ><svg
-        class="w-6 h-6 text-gray-600 hover:text-gray-800 button--github"
+        class="w-6 h-6 text-gray-600 transition duration-500 hover:text-gray-400 button--github"
         xmlns="http://www.w3.org/2000/svg"
         xmlns:xlink="http://www.w3.org/1999/xlink"
         aria-hidden="true"
@@ -20,7 +20,7 @@
     </a>
     <a href="https://www.linkedin.com/in/jozseftar/" target="_blank">
       <svg
-        class="w-6 h-6 text-gray-600 hover:text-gray-800"
+        class="w-6 h-6 text-gray-600 transition duration-500 hover:text-gray-400"
         xmlns="http://www.w3.org/2000/svg"
         xmlns:xlink="http://www.w3.org/1999/xlink"
         aria-hidden="true"
