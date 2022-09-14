@@ -1,37 +1,35 @@
 <template>
-  <a
-    class="transition duration-500 hover:text-gray-400"
-    href="https://www.tarengineering.hu/"
-    target="_blank"
-    ><div class="max-w-sm w-full lg:max-w-full lg:flex">
-      <div
-        class="h-48 lg:h-auto lg:w-48 flex-none bg-cover rounded-t lg:rounded-t-none lg:rounded-l text-center overflow-hidden"
-        style="background-image: url('tarengineering.jpg')"
-        title="measure a part with a tool"
-      ></div>
-      <div
-        class="border-r border-b border-l border-gray-400 lg:border-l-0 lg:border-t lg:border-gray-400 bg-white rounded-b lg:rounded-b-none lg:rounded-r p-4 flex flex-col justify-between leading-normal"
-      >
-        <div class="mb-4">
-          <div class="text-gray-900 font-bold text-xl mb-2">
-            {{ card.title }}
-          </div>
-          <p class="text-gray-700 text-base">
-            {{ card.description }}
+  <a :href="card.projectUrl" target="_blank"
+    ><div class="h-64 w-auto md:w-1/2">
+      <img
+        class="inset-0 h-full w-full object-cover object-center"
+        :src="card.bgImage"
+      />
+    </div>
+    <!-- content -->
+    <div class="w-full py-4 px-6 text-gray-800 flex flex-col justify-between">
+      <h3 class="font-semibold text-2xl leading-tight truncate">
+        {{ card.title }}
+      </h3>
+      <p class="mt-2">
+        {{ card.description }}
+      </p>
+      <div class="flex items-center justify-between">
+        <div class="text-sm">
+          <p class="mt-2">
+            {{ card.tasks }}
+          </p>
+          <p
+            class="text-sm text-gray-700 uppercase tracking-wide font-semibold mt-2"
+          >
+            {{ card.stack }} &bull; {{ card.year }}
           </p>
         </div>
-        <div class="flex items-center">
-          <div class="text-sm">
-            <p class="text-gray-900">
-              UI/UX design, development, hosting, maintenance.
-            </p>
-            <p class="text-gray-900">Nuxt.js, Vue.js, TailwindCSS, Netlify</p>
-            <p class="text-gray-600 mt-2">2021</p>
-          </div>
-        </div>
-      </div>
-    </div></a
-  >
+        <object>
+          <GithubIcon :redirectTo="card.redirectTo"></GithubIcon>
+        </object>
+      </div></div
+  ></a>
 </template>
 
 <script>
@@ -39,3 +37,13 @@ export default {
   props: ["card"],
 };
 </script>
+
+<style>
+@layer utilities {
+  .neon-shadow {
+    box-shadow: 0px 2px 4px rgba(0, 255, 255, 0.5),
+      0px 4px 8px rgba(0, 255, 255, 0.5), 0px 8px 16px rgba(0, 255, 255, 0.5),
+      0px 16px 32px rgba(0, 255, 255, 0.5);
+  }
+}
+</style>
