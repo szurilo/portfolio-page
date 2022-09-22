@@ -1,7 +1,7 @@
 <template>
   <nav class="flex max-w-4xl mx-auto">
     <NuxtLink
-      class="text-4xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-blue-500 to-white"
+      class="text-4xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-neon to-white"
       to="/"
       >József Tar</NuxtLink
     >

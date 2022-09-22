@@ -1,6 +1,6 @@
 <template>
   <div class="max-w-4xl mx-auto">
-    <div class="mt-8 overflow-hidden pr-7 pb-10">
+    <div class="pt-8 overflow-hidden pr-9 pb-12">
       <img
         src="~assets/avatar.png"
         class="w-36 h-36 rounded-full float-right shadow-2xl shadow-white neon-shadow"
@@ -15,18 +15,21 @@
     </p>
     <p class="mt-4">
       I have more than 10 years of experience in developing all kinds of
-      software solutions. My expertiese is ...
+      software solutions but my expertiese is web development. I can deliver
+      vast functionalities on the front and backend with excellent user
+      experiences. I only release fully optimalised, fast websites while taking
+      care of SEO if it is needed.
     </p>
 
     <div class="flex justify-center pt-8 space-x-8">
       <a
-        class="transition duration-500 hover:text-gray-400 font-bold text-transparent bg-clip-text bg-gradient-to-r from-white to-blue-500"
+        class="transition duration-500 hover:text-gray-400 font-bold text-transparent bg-clip-text bg-gradient-to-r from-white to-neon"
         href="CV_en.docx"
         download
         >Download my resume</a
       >
       <NuxtLink
-        class="transition duration-500 hover:text-gray-400 font-bold text-transparent bg-clip-text bg-gradient-to-r from-blue-500 to-white"
+        class="transition duration-500 hover:text-gray-400 font-bold text-transparent bg-clip-text bg-gradient-to-r from-neon to-white"
         to="/works"
         >Some of my works</NuxtLink
       >
@@ -42,8 +45,7 @@ export default {
 
 <style>
 .neon-shadow {
-  box-shadow: 0px 2px 4px rgba(0, 255, 255, 0.5),
-    0px 4px 8px rgba(0, 255, 255, 0.5), 0px 8px 16px rgba(0, 255, 255, 0.5),
-    0px 16px 32px rgba(0, 255, 255, 0.5);
+  box-shadow: 0px 2px 4px #00ffff80, 0px 4px 8px #00ffff80,
+    0px 8px 16px #00ffff80, 0px 16px 32px #00ffff80;
 }
 </style>

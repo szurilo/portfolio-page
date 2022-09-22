@@ -4,7 +4,7 @@
       v-for="card in cards"
       :key="card.id"
       :card="card"
-      class="flex flex-col md:flex-row overflow-hidden bg-white rounded-lg shadow-xl mt-8 w-100 mx-2"
+      class="flex flex-col md:flex-row overflow-hidden bg-white rounded-lg shadow-xl mt-16 w-100 mx-2"
     ></Card>
   </div>
 </template>
@@ -45,15 +45,27 @@ export default Vue.extend({
         },
         {
           projectUrl: "https://otpbusiness.hu/face-ui/lobby/landing#!landing",
-          id: 1,
+          id: 2,
           bgImage: "OTP_business.png",
           title: "OTP Business",
           contribution: "Team work",
           description:
             "An application that offer entrepreneurs to open their business account online.",
           tasks: "Frontend development",
-          stack: "Angular, Bootstrap, Spring Boot, Java",
+          stack: "Angular, Bootstrap, Typescript, Spring Boot, Java",
           year: 2021,
+        },
+        {
+          projectUrl: "https://web-rtc-videochat-indol.vercel.app/",
+          id: 3,
+          bgImage: "tarengineering.jpg",
+          title: "Video chat",
+          contribution: "Solo work",
+          description: "Showcase of a basic video chat app.",
+          tasks: "UI/UX design, development, hosting, maintenance.",
+          stack: "WebRTC, Firebase, Vite, Vanilla JS, TailwindCSS, Vercel",
+          githubURL: "https://github.com/szurilo/WebRTC-videochat",
+          year: 2022,
         },
       ],
     };

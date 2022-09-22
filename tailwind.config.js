@@ -13,6 +13,9 @@ module.exports = {
         "gradient-radial":
           "radial-gradient(circle at top right, var(--tw-gradient-stops))",
       },
+      colors: {
+        neon: "#00ffff80",
+      },
     },
   },
   variants: {
