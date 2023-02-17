@@ -17,8 +17,7 @@
       I have more than 10 years of experience in developing all kinds of
       software solutions but my expertiese is web development. I can deliver
       vast functionalities on the front and backend with excellent user
-      experiences. I only release fully optimalised, fast websites while taking
-      care of SEO if it is needed.
+      experiences. I only release fully optimalised, fast websites.
     </p>
 
     <div class="flex justify-center pt-8 space-x-8">

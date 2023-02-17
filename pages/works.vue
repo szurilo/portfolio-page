@@ -37,9 +37,9 @@ export default Vue.extend({
           title: "Tar Engineering",
           contribution: "Solo work",
           description:
-            "Small business page with responsive mobile first design. Rendered by SSG with excellent SEO. Google Maps integration.",
+            "Small business page with responsive mobile first design. Rendered by SSG with excellent SEO. Google Maps integration, contact form.",
           tasks: "UI/UX design, development, hosting, maintenance.",
-          stack: "Nuxt.js, Vue.js, TailwindCSS, Netlify",
+          stack: "Nuxt.js, Vue.js, TailwindCSS, Netlify, Serverless Functions",
           githubURL: "https://github.com/szurilo/tarcomp",
           year: 2021,
         },
